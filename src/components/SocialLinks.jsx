@@ -44,7 +44,7 @@ const SocialLinks = () => {
             ),
             href: "/public/Carlos Prado - FrontEnd Developer.pdf",
             style: "rounded-br-md",
-            download: true,
+        
         },
      
     ];
