@@ -5,6 +5,9 @@ import  github  from "../assets/github.png";
 import  javascript  from "../assets/javascript.png";
 import  reactimg  from "../assets/react.png";
 import  tailwind  from "../assets/tailwind.png";
+import  bootstrap from "../assets/bootstrap.png";
+import  djs from "../assets/djslogo.png";
+import  redux from "../assets/redux.png";
 
 const Experience = () => {
 
@@ -22,16 +25,16 @@ const Experience = () => {
             style: 'shadow-blue-500'
         },
         {
-            id:3,
-            src: github,
-            title: 'GITHUB',
-            style: 'shadow-gray-400'
-        },
-        {
-            id:4,
+            id: 3,
             src: javascript,
             title: 'JAVASCRIPT',
             style: 'shadow-yellow-500'
+        },
+        {
+            id:4,
+            src: github,
+            title: 'GITHUB',
+            style: 'shadow-gray-400'
         },
         {
             id:5,
@@ -44,6 +47,24 @@ const Experience = () => {
             src: tailwind,
             title: 'TAILWIND',
             style: 'shadow-sky-400'
+        },
+        {
+            id: 7,
+            src: bootstrap,
+            title: 'BOOTSTRAP',
+            style: 'shadow-purple-800'
+        },
+        {
+            id: 8,
+            src: djs,
+            title: 'DISCORD JS',
+            style: 'shadow-red-100'
+        },
+        {
+            id: 9,
+            src: redux,
+            title: 'REDUX',
+            style: 'shadow-purple-300'
         },
         
     ]
