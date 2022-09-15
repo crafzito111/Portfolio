@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 
+
 const SocialLinks = () => {
     const links = [
         {
@@ -42,8 +43,9 @@ const SocialLinks = () => {
                     Curriculum <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/public/Carlos Prado - FrontEnd Developer.pdf",
+            href: '/public/Carlos Prado-FrontEnd-Developer.pdf',
             style: "rounded-br-md",
+            download: "true",
         
         },
      
