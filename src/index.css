@@ -22,10 +22,47 @@
 }
 
 
+
+
 @media (max-width: 600px) {
 
 .About__margin {
    height: auto;
 }
+
+.experience {
+ 
+   height: auto;
+   font-size: 8px;
+}
+
+.experience img {
+   width: 80%;
+}
+
+
+}
+
+@media (min-width: 600px) {
+
+.btns_portfolio_cv {
+display: none;
+}
+
+
+
+}
+
+.btns_portfolio_main {
+   display: flex;
+   gap: 2em;
+}
+
+
+.footer {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color:white;
 }
 

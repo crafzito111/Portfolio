@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-scroll';
+
 
 const About = () => {
   return (
-      <div name='about' className="About__margin w-full  h-screen bg-gradient-to-b from-gray-800 to-black text-white">
+      <div name='about' className="About__margin w-full relative h-screen bg-gradient-to-b from-gray-800 to-black text-white">
 
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
               <div className='pb-8'>
@@ -18,6 +20,12 @@ const About = () => {
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel itaque at tenetur dignissimos aliquam dolor earum velit voluptatem ex ratione libero, voluptates dolorum maiores reiciendis ullam non numquam? Adipisci, autem fugiat eum cupiditate, molestias omnis unde excepturi deserunt nisi quidem amet ipsa quo nam delectus impedit ut culpa tenetur totam.
 </p>
             </div>
+
+      <section className='scrol__main2'>
+        <Link to='portfolio' smooth duration={600}>
+          <a href="#" class="scroll-down" address="true"></a>
+        </Link>
+      </section>
 
     </div>
   )
