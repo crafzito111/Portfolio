@@ -86,6 +86,7 @@ section {
 .btns_portfolio_cv {
    display: flex;
    align-items: center;
+   z-index: 10;
    
 }
 

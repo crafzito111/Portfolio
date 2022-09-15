@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-      <div name="home" className="home__main z-10 min-h-screen  flex items-center w-full bg-gradient-to-b from-black via-black to-gray-800">
+      <div name="home" className="home__main z-20 min-h-screen  flex items-center w-full bg-gradient-to-b from-black via-black to-gray-800">
 
           <div className="max-w-screen-lg   mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row textVer">
               <div className=" flex  flex-col justify-center  h-full mt-20">
@@ -21,9 +21,9 @@ const Home = () => {
                       Y cada dia motivado a aprender cosas nuevas🚀
                 </p>
 
-                  <div className='btns_portfolio_main'>
-                      <div className='z-5'>
-                          <Link to='portfolio' smooth duration={600} className='group cursor-pointer text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
+                  <div className='btns_portfolio_main '>
+                      <div className='z-15'>
+                          <Link to='portfolio' smooth duration={600} className='group z-15 cursor-pointer text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
                               Portfolio
                               <span className='group-hover:rotate-90 duration-300'>
                                   <MdOutlineKeyboardArrowRight size={25} className='ml-1' />

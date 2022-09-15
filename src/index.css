@@ -47,6 +47,7 @@
 
 .btns_portfolio_cv {
 display: none;
+
 }
 
 
@@ -56,6 +57,7 @@ display: none;
 .btns_portfolio_main {
    display: flex;
    gap: 2em;
+   z-index: 30;
 }
 
 
