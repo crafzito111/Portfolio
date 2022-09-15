@@ -42,7 +42,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/public/Carlos Prado - FrontEnd.pdf",
+            href: "/public/Carlos Prado - FrontEnd Developer.pdf",
             style: "rounded-br-md",
             download: true,
         },
