@@ -13,10 +13,18 @@ function App() {
   return (
    <div>
     <NavBar/>
+   
     <Home/>
+      <hr />
     <About/>
+      <hr />
+
     <Portfolio/>
+      <hr />
+
     <Experience/>
+      <hr />
+
     <Contact/>
 
     <SocialLinks/>
